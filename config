@@ -1,1 +1,12 @@
-theme = 0x96f
+theme = catppuccin-mocha
+
+window-save-state = always
+
+
+keybind = ctrl+alt+shift+up=resize_split:up,10
+keybind = ctrl+alt+shift+equal=equalize_splits
+keybind = ctrl+alt+shift+left=resize_split:left,10
+keybind = ctrl+alt+shift+down=resize_split:down,10
+keybind = ctrl+alt+shift+right=resize_split:right,10
+keybind = ctrl+alt+right_bracket=goto_split:next
+keybind = ctrl+alt+left_bracket=goto_split:previous
